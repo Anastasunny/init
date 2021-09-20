@@ -19,7 +19,7 @@ h2{
   width:350px;
   margin-bottom:60px;
   padding:45px 45px 70px;
-  box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+  box-shadow: 4px 4px 5px rgb(120, 120, 120);
   display: inline-block;
   position: absolute;
   top: 50%;
