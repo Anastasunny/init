@@ -1,3 +1,4 @@
+
 const fs = require('fs-extra')
 
 function n(callback) {
@@ -11,9 +12,7 @@ n(() => {
                 fs.move('./folder1/nfile.txt', './folder2/nfile.txt', () => {
                     fs.remove('./folder2/nfile.txt', () => {
                         fs.remove('./folder1', () => {
-                            fs.remove('./folder2', () => {
-                            console.log('7');
-                            })
+                            fs.remove('./folder2')
                         })        
                     })
                 })
