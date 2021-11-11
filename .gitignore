@@ -103,4 +103,4 @@ dist
 # TernJS port file
 .tern-port
 
-./HT15/node-modules
+./HT15/node_modules
